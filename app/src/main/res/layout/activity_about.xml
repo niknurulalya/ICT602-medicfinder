@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="About" />
+
+        <!-- About Us Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Group Photo -->
+        <ImageView
+            android:id="@+id/group_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/team1"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:contentDescription="Group Photo" />
+
+        <!-- Course and Class -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CS240"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  |  "
+                android:textSize="16sp"
+                android:paddingHorizontal="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D1CDCS2405B"
+                android:textColor="#404145"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Team Member Info -->
+
+    <!-- GitHub Link -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="212dp"
+        android:orientation="vertical"
+        android:paddingTop="12dp">
+
+        <!-- Member 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nik Nurul Alya Binti Nik Mat"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="2022458596" />
+
+        <!-- Member 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aina Amanina Binti Azman"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="2022675492" />
+
+        <!-- Member 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nur Ainin Damia Binti Muhammad Azharan"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="2022851372" />
+
+        <!-- Member 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Norhalili Binti Rosli"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="2022498964" />
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Github:"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/github_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Github Assignment ICT602"
+            android:textColor="@android:color/holo_blue_dark"
+            android:autoLink="web"
+            android:textSize="14sp" />
+
+        <!-- Footer -->
+        <TextView
+            android:id="@+id/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="© 2025 Find Clinic App. All Rights Reserved."
+            android:textColor="#888888"
+            android:textSize="12sp" />
+
+
+
+
+</LinearLayout>

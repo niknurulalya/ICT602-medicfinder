@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568443581503",
+    "project_id": "medicfinder-5b668",
+    "storage_bucket": "medicfinder-5b668.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568443581503:android:45d7027eaffc47b30f748a",
+        "android_client_info": {
+          "package_name": "com.example.medicfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8SdSAl3Yjk8ChnkUyNyFt4LA2K2uB_R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

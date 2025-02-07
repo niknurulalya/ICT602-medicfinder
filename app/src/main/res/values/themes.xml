@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Medicfinder" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Dark color for app status -->
+        <item name="colorPrimaryDark">#1976D2</item>
+
+        <!-- Text or icon color on App Bar -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White font color on app bar -->
+
+        <!-- Background color (lighter blue) -->
+        <item name="android:windowBackground">@color/colorBackground</item> <!-- Lighter Blue -->
+    </style>
+
+    <style name="Theme.Medicfinder" parent="Base.Theme.Medicfinder" />
+</resources>
